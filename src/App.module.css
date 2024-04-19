@@ -1,0 +1,11 @@
+.box{
+    width:  400px;
+    height: fit-content;
+    border: solid rgb(63, 63, 63);
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div{
+    padding: 10px;
+}
