@@ -10,7 +10,7 @@ function App() {
   let [activeItems,setActive]=useState([]);
   let [foodList,setFoodList]=useState([]);
   const OnButtonClick=(e) =>{
-    // e.target.parentElement.style.backgroundColor="red";
+    // e.target.parentElement.style.backgroundColor="red"
     // console.log(e.target.parentElement.childNodes[0]);
     if(activeItems.includes(e.target.parentElement.childNodes[0])){
       let index=activeItems.indexOf(e.target.parentElement.childNodes[0]);
